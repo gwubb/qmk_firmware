@@ -85,7 +85,7 @@
  * power-up.
  *
  */
-//#define FORCE_NKRO
+#define FORCE_NKRO
 
 /*
  * Feature disable options
