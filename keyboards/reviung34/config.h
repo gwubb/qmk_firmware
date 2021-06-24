@@ -30,6 +30,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 9
 
+// home row mods
+ 
+// Configure the global tapping term (default: 200ms)    
+#define TAPPING_TERM 250    
+    
+// Prevent normal rollover on alphas from accidentally triggering mods.    
+#define IGNORE_MOD_TAP_INTERRUPT    
+    
+// Enable rapid switch from tap to hold, disables double tap hold auto-repeat.    
+#define TAPPING_FORCE_HOLD    
+    
+// Apply the modifier on keys that are tapped during a short hold of a modtap    
+#define PERMISSIVE_HOLD    
+
 /*
  * Keyboard Matrix Assignments
  *
@@ -121,7 +135,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * power-up.
  *
  */
-//#define FORCE_NKRO
+#define FORCE_NKRO
 
 /*
  * Magic Key Options
