@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ALT_A LALT_T(KC_A)
 #define CTL_R LCTL_T(KC_R)
 #define GUI_S LGUI_T(KC_S)
-#define SHFT_T LSFT_T(KC_T)
+define SHFT_T LSFT_T(KC_T)
 
 // Right-hand home row mods
 #define SFT_N RSFT_T(KC_N)
